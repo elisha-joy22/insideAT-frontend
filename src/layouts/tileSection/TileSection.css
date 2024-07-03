@@ -1,0 +1,54 @@
+/* Styles for the TileSection component */
+.tile-section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+
+
+.tile-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .tiles {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .tile {
+    flex: 0 0 20%;
+    margin: 1rem;
+  }
+  
+  .tile-navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tile-navigation button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tile-navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .tile-navigation button:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+  

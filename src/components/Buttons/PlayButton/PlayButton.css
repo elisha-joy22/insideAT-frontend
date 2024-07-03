@@ -1,0 +1,29 @@
+
+.play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 15, 15, 0.486);
+    color: rgb(230, 209, 209);
+    border: 1px solid black;
+    padding: 5% 10%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    position: relative; 
+  }
+  
+  .play-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+
+  .play-button p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .play-icon {
+    font-size: 1.2rem; /* Adjust the size of the play icon */
+    margin-left: 5%; /* Add spacing between icon and text */
+  }

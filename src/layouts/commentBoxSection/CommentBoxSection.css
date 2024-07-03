@@ -1,0 +1,13 @@
+.commentboxsection-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.commentboxsection-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+}

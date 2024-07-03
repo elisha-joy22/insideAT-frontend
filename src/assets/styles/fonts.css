@@ -1,0 +1,46 @@
+
+.mclaren-regular {
+    font-family: "McLaren", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .noto-sans-unique {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .hubballi-regular {
+    font-family: "Hubballi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+   
+
+
+.quattrocento-sans-regular {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .quattrocento-sans-bold {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .quattrocento-sans-regular-italic {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .quattrocento-sans-bold-italic {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }

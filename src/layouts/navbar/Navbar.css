@@ -1,0 +1,14 @@
+/* Common Navbar Styles */
+.navbar {
+    background-color: whitesmoke; /* Common background color */
+    color: black; /* Common text color */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

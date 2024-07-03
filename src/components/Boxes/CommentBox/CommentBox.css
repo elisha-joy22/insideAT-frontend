@@ -1,0 +1,54 @@
+.commentbox-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 70%;
+    border: 1px solid #9393e0;
+    padding: 1%; /* Adds padding inside the box */
+    margin: 1% 1% auto; /* Centers the box horizontally and adds some space around it */
+    border-radius: 10px;
+}
+
+.profile-picture-section{
+    width: 20%;
+}
+
+
+.comment-section{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+
+.top-layer{
+    display: flex;
+    flex-direction: row;   
+}
+
+.comment-layer{
+    text-align: left;
+}
+
+.bottom-layer{
+    display: flex;
+    flex-direction: row;   
+}
+
+.round-image2{
+    border-radius: 50%; /* Make the image round */
+    object-fit:inherit; /* Ensure the image covers the entire area */
+    height: 50%;
+    width: 50%;
+}
+
+.name{
+    width: 50%;
+    text-align: left;
+}
+
+.date{
+    width: 50%;
+    text-align: right;
+    color: rgb(87, 80, 80);
+}

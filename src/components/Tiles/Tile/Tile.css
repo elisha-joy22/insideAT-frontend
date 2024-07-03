@@ -1,0 +1,47 @@
+/* General styles for the tile */
+.tile {
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .tile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .round-image{
+    border-radius: 100%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border: 2px solid #00000000; 
+    width: 60%;  /* Ensure the width and height are equal */
+    height: 35%;
+  }
+
+  .tile-title {
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .tile-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive styles for the tile */
+  @media (max-width: 768px) {
+    .tile {
+      padding: 0.5rem;
+    }
+  
+    .tile-title {
+      font-size: 1.25rem;
+    }
+  
+    .tile-description {
+      font-size: 0.875rem;
+    }
+  }
+  
