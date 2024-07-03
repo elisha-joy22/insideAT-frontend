@@ -1,8 +1,8 @@
 import React from 'react';
 import './Screen.css';
-import '../../../assets/styles/fonts.css'
+import '../../../../assets/styles/fonts.css'
 
-import PlayButton from '../../../components/Buttons/PlayButton/PlayButton';
+import PlayButton from '../../../../components/Buttons/PlayButton/PlayButton';
 
 const InsideTalksScreen = ({ backgroundimageUrl, videoInfo }) => {
   return (

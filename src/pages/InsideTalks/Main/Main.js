@@ -1,10 +1,10 @@
 import React from 'react';
-import './Content.css';
+import './Main.css';
 
-import InsideTalksScreen from '../../pages/InsideTalks/blocks/Screen/Screen';
-import InsideTalksParticipants from '../../pages/InsideTalks/blocks/Participants/Participants';
-import TileSection from '../tileSection/TileSection';
-import CommentBoxSection from '../commentBoxSection/CommentBoxSection';
+import InsideTalksScreen from '../blocks/Screen/Screen';
+import InsideTalksParticipants from '../blocks/Participants/Participants';
+import TileSection from '../../../layouts/tileSection/TileSection';
+import CommentBoxSection from '../../../layouts/commentBoxSection/CommentBoxSection';
 
 const tileData = [
   {
@@ -38,7 +38,7 @@ const tileData = [
   // Add more tiles as needed
 ];
 
-const Content = () => {
+const Main = () => {
   return (
     <div className="content">
       <InsideTalksScreen 
@@ -61,6 +61,5 @@ const Content = () => {
     </div>
   );
 };
-//<TileSection tilesData={tileData} tileSectionHeading={'Tech Talks'} />
 
-export default Content;
+export default Main;

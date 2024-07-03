@@ -1,7 +1,7 @@
 import React from 'react';
 import './Participants.css';
 
-import TileSection from '../../../layouts/tileSection/TileSection';
+import TileSection from '../../../../layouts/tileSection/TileSection';
 
 
 
