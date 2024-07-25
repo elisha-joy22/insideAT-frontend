@@ -1,0 +1,12 @@
+.thumbs-up{
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    height: 30px
+}
+.thumbs-up p{
+    align-items: center;
+    margin: 0;
+    padding-top: 25%;
+    padding-left: 20%;
+}
